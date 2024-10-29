@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bot-whatsapp"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Vieira <lucasvieiranrz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openpyxl = "^3.1.5"
+pyautogui = "^0.9.54"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
